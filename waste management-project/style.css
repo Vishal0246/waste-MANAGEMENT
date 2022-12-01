@@ -1,0 +1,578 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Bangers', cursive; */
+    /* font-family: 'Kaushan Script', cursive; */
+
+}
+
+.box {
+    /* opacity: 0.8;  */
+    background:rgba(0,0,0,0.6)url(images/main-bg.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* height: 730px; */
+    height: 100vh;
+
+
+    /* opacity: 0.3; */
+}
+
+.logo {
+    position: absolute;
+    top: -9px;
+    left: 10px;
+}
+
+.logo-text {
+    position: absolute;
+    top: 20px;
+    left: 170px;
+
+    /* font-family: 'Bangers'; */
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+
+}
+
+.logo-text02 {
+    position: absolute;
+    top: 51px;
+    left: 168px;
+color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.slogan {
+    position: absolute;
+    top: 174px;
+    left: 170px;
+    font-family: 'Bangers', cursive;
+    /* font-family: 'Kaushan Script', cursive; */
+    width: 434px;
+    font-size: 64px;
+    /* font-weight: bolder; */
+    color: rgb(249, 231, 231);
+    display: none;
+}
+
+.slogan-02 {
+    display: none;
+    position: absolute;
+    top: 420px;
+    width: 400px;
+    left: 174px;
+    /* font-family: 'Bangers', cursive; */
+    font-family: 'Kaushan Script', cursive;
+    /* font-family: 'Sacramento', cursive; */
+    color: white;
+}
+
+.btn {
+    border: 2px solid black;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 607px;
+    left: 174px;
+    font-size: 26px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Bangers', cursive;
+    display: none;
+    
+}
+
+.btn a
+{
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: white;
+}
+
+.nav {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    height: 100vh;
+    width: 20vw;
+    /* background: rgba(14, 47, 58, 0.559); */
+    background-color: rgba(128, 128, 128, 0.461);
+    color: rgb(18, 18, 18);
+    padding: 22px;
+    /* width: 49vw; */
+    font-weight: bold;
+    font-size: 20px;
+
+    border-radius: 8px;
+    font-family: 'Kaushan Script', cursive;
+    display: none;
+
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 32px;
+}
+
+.nav ul li {
+    list-style: none;
+    margin: 30px 0;
+}
+
+.nav ul li:hover {
+    padding: 15px;
+    background-color: green;
+    columns: white;
+    border-radius: 30px;
+}
+#linka{
+    text-decoration: none;
+    color: rgb(239, 232, 232);
+}
+#linkb{
+    text-decoration: none;
+    color: rgb(235, 210, 210);
+}
+
+.search {
+    margin-left: 27px;
+    position: absolute;
+    top: 20px;
+    left: 1070px;
+    /* z-index: -1; */
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.search input {
+    padding: 4px 7px;
+    border: 2px solid black;
+    border-radius: 11px;
+    z-index: -1;
+}
+
+.search button {
+    padding: 4px 10px;
+    border: 2px solid black;
+    border-radius: 10px
+}
+
+.search button:hover {
+    
+    background-color: rgba(118, 206, 118, 0.84);
+    color: white;
+}
+
+.side-bar {
+    /* position: absolute;
+    top: 16px;
+    left: 1380px; */
+    display: inline-block;
+    position: absolute;
+    left: 1421px;
+    top: 20px;
+
+}
+
+.div1,
+.div2,
+.div3 {
+    height: 7px;
+    width: 47px;
+    background-color: rgb(225, 216, 216);
+    margin: 5px 5px;
+}
+
+.right-arrow {
+    width: 60px;
+    position: relative;
+    top: 312px;
+    cursor: pointer;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.impact {
+    text-align: center;
+    background-color: rgb(237, 242, 245);
+    margin-top: 0px;
+    padding: 20px;
+    font-family: 'Bangers', cursive;
+
+}
+
+.boxA {
+    /* border: 2px solid rgb(172, 167, 167); */
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.boxA img {
+    width: 302px;
+    height: 110px;
+    border-radius: 65px;
+
+}
+
+.image-11
+{
+    position: absolute;
+    /* margin-right: 50px; */
+    left: 10px;
+    top: 1720px;
+    border-radius: 10px;
+    z-index: -1;
+
+}
+
+
+.impact
+{
+    margin-bottom: 30px;
+}
+
+
+
+.impact-02 h1
+{
+    width: 600px;
+    margin-left: 50px;
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 20px;
+
+}
+
+.impact-02 h3
+{
+    width: 400px;
+    font-family: 'Bangers', cursive;
+
+    margin-left : 50px
+}
+
+.impact-02 p
+{
+    width: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    margin-left : 50px
+}
+
+.impact-02 .heading-11
+{
+    font-size: 20px;
+    position: absolute;
+    top: 1780px;
+    left: 65px;
+    font-family: cursive;
+    color: black;
+    font-weight: bold;
+    /* margin-bottom: 30px; */
+}
+
+.impact-02 .heading-12
+{
+    font-size: 20px;
+    position: absolute;
+    top: 1780px;
+    left: 480px;
+    font-family: cursive;
+    color: black;
+    font-weight: bold;
+
+}
+
+.impact-02 .image-14
+{
+    position: absolute;
+    left: 10px;
+    top: 1480px;
+}
+
+.image-15
+{
+    position: absolute;
+    left: 350px;
+    top: 1490px;
+}
+
+.image-16
+{
+    position: absolute;
+    top: 1150px;
+    left: 650px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.button-11
+{
+    
+    position: absolute;
+    left: 187px;
+    top: 1507px;
+    background-color: green;
+    border-radius: 20px;
+    height: 65px;
+    width: 150px;
+}
+
+.image-21
+{
+    /* position: absolute; */
+    top: 2000px;
+    width: 100%;
+    position: sticky;
+    opacity: 0.7;
+}
+
+.impact-03 h1
+{
+    position: absolute;
+    top: 2070px;
+    left: 380px;
+    /* align-items: center;
+    justify-content: center; */
+    width: 837px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: cursive;
+    color: black;
+}
+
+.impact-03 h3
+{
+    position: absolute;
+    top: 2200px;
+    left: 437px;
+    /* align-items: center;
+    justify-content: center; */
+    width: 676px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    color: black;
+}
+
+.impact-03 button
+{
+    position: absolute;
+    top: 2350px;
+    left: 640px;
+    height: 60px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.impact-03 button a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* footer css */
+
+
+footer{
+
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    display: flex;
+   
+}
+.footer
+{
+   
+    margin-top: 20px;
+    
+}
+.footer img
+{
+    border-radius: 10%;
+    margin: 0px 100px;
+    position: sticky;
+    
+}
+
+
+
+
+
+.footer p
+{
+    font-family: 'Kaushan Script', cursive;
+    width: 300px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.copyright
+{
+    font-family: 'Bangers', cursive;
+    margin-left: 20px;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    margin-top: 10px;
+    background: #3B5998;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+
+  
+.fa-instagram {
+    margin-top: 10px;
+    background: #f10cb4;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    padding-left: 10px;
+  }
+
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    padding-left: 10px;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    margin-left: 60px;
+  }
+
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+  }
+
+  .links li a{
+    color: rgb(216, 201, 201);
+    text-decoration: none;
+  }
+  .links li:nth-child(1) a {
+    font-weight: bold;
+    color: aqua;
+  }
+  .links li a:hover{
+    text-decoration: underline;
+    
+  }
+
+  .links li
+  {
+
+        list-style-type: none;
+        padding: 0px 5px;
+        margin-left: 100px;
+        margin-top: 20px;
+        font-size: 18px;   
+        font-family :Georgia, 'Times New Roman', Times, serif; 
+  }
+
+  .links
+  {
+     margin-left: 50px;
+     margin-top: 40px;
+  }
+
+  .developer {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+  /* offer */
+
+  #gif2{
+    position:relative;
+    left: 1018px;
+    top: 466px;
+    width: 290px;
+    height: 270px;
+}
+
+  #btnm{
+    width: 145px;
+    height: 33px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.219);
+    color: white;
+    position: relative;
+    top: 563px;
+    left: 717px;
+    color: white;
+}
+#btnm:hover{
+    color: white;
+    background-color: aqua;
+}
+#knmr{
+    text-decoration: none;
+    color: white;
+}

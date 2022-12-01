@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Kaushan+Script&family=Sacramento&family=Satisfy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#img1{
+    height: 300px;
+    width: 100%;
+    border:2px solid black;
+}
+#p1{
+    position: relative;
+    bottom: 168px;
+    left: 640px;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+
+}
+#h1{
+    font-family: 'Bangers', cursive;
+    position: relative;
+    bottom: 182px;
+    left: 610px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white
+}
+#lnk1{
+    text-decoration: none;
+    color: red;
+}
+#lnk2{
+    text-decoration: none;
+    color: red;
+}
+
+
+
+#p2{
+    position: relative;
+    bottom: 214px;
+    left: 715px;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+
+}
+.mid{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 52%;
+    border: 2px solid black;
+}
+#cnt{
+    margin-left: 98px;
+    font-weight: bold;
+}
+#h2{
+    margin-left: 92px;
+    padding-top: 10px;
+    font-family: cursive;
+}
+#h3{
+    margin-left: 92px;
+    margin-top: -16px;
+    font-family: cursive;
+
+}
+#p3{
+    margin-left: 92px;
+    /* margin-top: -16px; */
+    padding-top: 26px;
+    font-family: cursive;
+}
+#img2{
+    left: 64px;
+    position: relative;
+    top: 98px;
+}
+#img3{
+    left: 10px;
+    position: relative;
+    top: 98px;
+    
+}
+#img4{
+    left: 64px;
+    position: relative;
+    top: 98px;
+    
+}
+#b1{
+    margin-left: 212px;
+    font-weight: bold;
+}
+#b2{
+    margin-left: 212px;
+    font-weight: bold;
+}
+#b3{
+    margin-left: 212px;
+    font-weight: bold;
+}
+#unique{
+    margin-top: 30px;
+    margin-left: 123px;
+    height: 37px;
+    width: 529px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: azure;
+}
+#name{
+    margin-top: 30px;
+    margin-left: 111px;
+    height: 37px;
+    width: 529px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: azure;
+    
+}
+#mail{
+    margin-top: 30px;
+    margin-left: 111px;
+    height: 37px;
+    width: 529px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: azure;
+}
+#number{
+    margin-top: 30px;
+    margin-left: 111px;
+    height: 37px;
+    width: 529px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: azure;
+}
+#sub{
+    margin-top: 30px;
+    margin-left: 111px;
+    height: 37px;
+    width: 529px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: azure;
+}
+#txt1{
+    margin-top: 30px;
+    margin-left: 111px;
+    height: 256px;
+    width: 529px;
+    padding-left: 20px;
+    font-weight: bold;
+    background-color: azure;
+}
+#btn{
+    background-color: yellow;
+    height: 40px;
+    width: 177px;
+    margin-top: 48px;
+    margin-left: 283px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#btn:hover{
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* #map{
+    margin-top: 33px;
+} */
+
+footer{
+
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    display: flex;
+   
+}
+.footer
+{
+   
+    margin-top: 20px;
+    
+}
+.footer img
+{
+    border-radius: 10%;
+    margin: 0px 100px;
+    position: sticky;
+    
+}
+
+
+
+
+
+.footer p
+{
+    font-family: 'Kaushan Script', cursive;
+    width: 300px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.copyright
+{
+    font-family: 'Bangers', cursive;
+    margin-left: 20px;
+
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  .fa-facebook {
+    margin-top: 10px;
+    background: #3B5998;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+
+  
+.fa-instagram {
+    margin-top: 10px;
+    background: #f10cb4;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    padding-left: 10px;
+  }
+
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    padding-left: 10px;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+    margin-left: 60px;
+  }
+
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 50px;
+    height: 20px;
+    border-radius: 2px;
+  }
+
+  .links li a{
+    color: rgb(216, 201, 201);
+    text-decoration: none;
+  }
+  .links li:nth-child(1) a {
+    font-weight: bold;
+    color: aqua;
+  }
+  .links li a:hover{
+    text-decoration: underline;
+    
+  }
+
+  .links li
+  {
+
+        list-style-type: none;
+        padding: 0px 5px;
+        margin-left: 100px;
+        margin-top: 20px;
+        font-size: 18px;   
+        font-family :Georgia, 'Times New Roman', Times, serif; 
+  }
+
+  .links
+  {
+     margin-left: 50px;
+     margin-top: 40px;
+  }
+
+  .developer {
+    margin-left: 20px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-family:'Times New Roman', Times, serif;
+  }
+
+
+  /* nav bar */
+
+  .navbar{
+    padding: 30px;
+    width: 100vw;
+    background-color: rgba(151, 230, 230, 0.347);
+    font-size: 20px;
+    position: absolute;
+    top: 1px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.navbar ul li{
+    list-style: none;
+    padding: 0 20px;
+}
+.navbar ul li a{
+    font-family: 'Bangers', cursive;
+    text-decoration: none;
+    color: rgb(17, 16, 16);
+}
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color: green;
+}
+
+
+
+
